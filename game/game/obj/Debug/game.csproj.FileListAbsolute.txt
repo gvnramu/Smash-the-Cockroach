@@ -1,0 +1,136 @@
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\Assets\binclose.png
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\Assets\binopen.png
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\Assets\bk.jpg
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\Assets\cockroach copy.png
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\Assets\dead-cockroach.png
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\Assets\fear.png
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\Assets\normal.png
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\game.exe
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\game.pdb
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\resources.pri
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\AppxManifest.xml
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\bin\Debug\game.build.appxrecipe
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\App.g.i.cs
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\App.g.cs
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\Common\StandardStyles.g.i.cs
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\Common\StandardStyles.g.cs
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\MainPage.g.i.cs
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\MainPage.g.cs
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\XamlTypeInfo.g.cs
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\App.xaml
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\Common\StandardStyles.xaml
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\MainPage.xaml
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\game.exe
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\game.pdb
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\priconfig.xml
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\layout.resfiles
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\resources.resfiles
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\pri.resfiles
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\LanguageQualifiers.txt
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\ProjectArchitectures.txt
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\priconfig.xml.intermediate
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\layout.resfiles.intermediate
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\resources.resfiles.intermediate
+c:\users\dcme\documents\visual studio 2012\Projects\game\game\obj\Debug\pri.resfiles.intermediate
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\Assets\binclose.png
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\Assets\binopen.png
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\Assets\bk.jpg
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\Assets\cockroach copy.png
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\Assets\dead-cockroach.png
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\Assets\fear.png
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\Assets\normal.png
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\game.exe
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\game.pdb
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\resources.pri
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\AppxManifest.xml
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\game.build.appxrecipe
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\App.g.i.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\App.g.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\Common\StandardStyles.g.i.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\Common\StandardStyles.g.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\MainPage.g.i.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\MainPage.g.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\XamlTypeInfo.g.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\App.xaml
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\Common\StandardStyles.xaml
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\MainPage.xaml
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\game.exe
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\game.pdb
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\priconfig.xml
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\layout.resfiles
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\resources.resfiles
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\pri.resfiles
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\LanguageQualifiers.txt
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\ProjectArchitectures.txt
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\PG_Level2.g.i.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\PG_Level2.g.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\PG_Level2.xaml
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\PG_Start.g.i.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\PG_Start.g.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\PG_Start.xaml
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\PG_Exit.g.i.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\PG_Exit.g.cs
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\obj\Debug\PG_Exit.xaml
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\Assets\cockroach.png
+D:\User-Data\Documents\Visual Studio 2012\Projects\game\game\bin\Debug\Assets\Dead.png
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\App.g.i.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\App.g.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\Common\StandardStyles.g.i.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\Common\StandardStyles.g.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\MainPage.g.i.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\MainPage.g.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Exit.g.i.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Exit.g.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Level2.g.i.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Level2.g.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Start.g.i.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Start.g.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\XamlTypeInfo.g.cs
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\App.xaml
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\Common\StandardStyles.xaml
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\MainPage.xaml
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Exit.xaml
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Level2.xaml
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Start.xaml
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\App.xbf
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\Common\StandardStyles.xbf
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\MainPage.xbf
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Exit.xbf
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Level2.xbf
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\PG_Start.xbf
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\XamlSaveStateFile.xml
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\game.exe
+D:\User-Data\Documents\GVNR\Project Backup\game\game\obj\Debug\game.pdb
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Assets\binclose.png
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Assets\binopen.png
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Assets\bk.jpg
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Assets\cockroach copy.png
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Assets\cockroach.png
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Assets\dead-cockroach.png
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Assets\Dead.png
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Assets\fear.png
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Assets\normal.png
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\App.xbf
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Common\StandardStyles.xbf
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\MainPage.xbf
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\PG_Exit.xbf
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\PG_Level2.xbf
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\PG_Start.xbf
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\game.xr.xml
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\game.exe
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\game.pdb
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\resources.pri
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\AppxManifest.xml
+D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\game.build.appxrecipe
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\priconfig.xml
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\priconfig.xml.intermediate
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\layout.resfiles
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\layout.resfiles.intermediate
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\resources.resfiles
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\resources.resfiles.intermediate
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\pri.resfiles
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\pri.resfiles.intermediate
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\qualifiers.txt
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\qualifiers.txt.intermediate
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\ProjectArchitectures.txt

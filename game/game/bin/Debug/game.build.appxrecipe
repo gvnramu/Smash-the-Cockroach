@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-AI9TNH5</Machine>
+    <WindowsUser>goli</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>019a6d3e-c7c1-4d9f-9306-e9cb604ba3ca</PackageIdentityName>
+    <IntermediateOutputPath>D:\User-Data\documents\Gvnr\Project Backup\game\game\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\game.exe">
+      <PackagePath>game.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\Arrow.png">
+      <PackagePath>Assets\Arrow.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\binclose.png">
+      <PackagePath>Assets\binclose.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\binopen.png">
+      <PackagePath>Assets\binopen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\cockroach copy.png">
+      <PackagePath>Assets\cockroach copy.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\cockroach.png">
+      <PackagePath>Assets\cockroach.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\dead-cockroach.png">
+      <PackagePath>Assets\dead-cockroach.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\Dead.png">
+      <PackagePath>Assets\Dead.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\fear.png">
+      <PackagePath>Assets\fear.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\normal.png">
+      <PackagePath>Assets\normal.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\start.png">
+      <PackagePath>Assets\start.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\back.jpg">
+      <PackagePath>Assets\back.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\bk.jpg">
+      <PackagePath>Assets\bk.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\GirlScary.MP3">
+      <PackagePath>Assets\GirlScary.MP3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\Assets\hissing.MP3">
+      <PackagePath>Assets\hissing.MP3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\game.xr.xml">
+      <PackagePath>game.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\PG_Exit.xbf">
+      <PackagePath>PG_Exit.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\PG_Level2.xbf">
+      <PackagePath>PG_Level2.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\PG_Start.xbf">
+      <PackagePath>PG_Start.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\User-Data\documents\Gvnr\Project Backup\game\game\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

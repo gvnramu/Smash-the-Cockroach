@@ -1,0 +1,835 @@
+﻿<Page
+    x:Class="game.PG_Start"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:game"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+	<Page.Resources>
+		<Storyboard x:Name="Story_StartPage">
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="cockroach2">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-31.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="30"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="126"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="190.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="270"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="342"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="409.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="481.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="555"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="634.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="634.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="636.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="642.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="639.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="654.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="656.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="660.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="596.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="504.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="350.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="267.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="240.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="243.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="263.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="269.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="296.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="306.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="314.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="473.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="624.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="798.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="975.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="1098.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="1196.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="1272.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="1205.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="839.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="711.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="546.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="369.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="134.25"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="cockroach2">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-33"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="30"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="61.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="97.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="135"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="168"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="207"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="247.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="304.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="333"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="255"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="181.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="70.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="9"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-93"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-177"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-226.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-319.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-316.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-327"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-342"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-256.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-156"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-49.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="52.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="165"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="282"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="357"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="358.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="352.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="349.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="348"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="345"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="336"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="342"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="342"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="343.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="351"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="361.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="357"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="358.5"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="cockroach1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="48"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="111"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="223.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="324"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="414"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="504"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="607.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="700.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="807"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="936"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="1024.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="1114.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="1191"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="1245"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="1252.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="1233"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="1237.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="1239"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="1237.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="1222.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="1119"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="1018.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="921"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="795"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="672"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="516"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="369"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.1" Value="258"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="732"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="975"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="1001.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="1010.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="1040.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="1113.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="965.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="962.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="977.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="1020.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="1014.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="1008.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="900.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="752.25"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="cockroach1">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-12"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-4.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-6"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-1.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-1.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="3"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="4.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="1.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-6"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-6"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-7.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-18"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-27"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-114"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-225"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-313.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-400.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-525"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-613.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-610.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-609"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-612"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-609"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-606"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="-600"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-595.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.1" Value="-588"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="-598.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="-625.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-518.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-368.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-207.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="18.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-38.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="69.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-8.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="-335.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="-473.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="-611.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="-392.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-182.25"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="cockroach3">
+				<EasingDoubleKeyFrame KeyTime="0" Value="43.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="112.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="186"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="261"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="330"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="397.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="463.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="523.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="468"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="325.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="285"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="240"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="195"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="108"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="54"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-108"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-198"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-243"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-313.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-363"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-262.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-30"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="63"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="153"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="213"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="348"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="465"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="591"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="675"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="730.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="832.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="699"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="601.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="549"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="469.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="429"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="399"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="382.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="321"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="108"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-102"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="cockroach3">
+				<EasingDoubleKeyFrame KeyTime="0" Value="1.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-57"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-111"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-160.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-205.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-262.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-312"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-364.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-406.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-531"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-573"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-496.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-430.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-256.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-195"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="60"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="136.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-27"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-106.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-151.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-252"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-289.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-334.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-337.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="-420"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-483"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="-538.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="-574.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-526.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-421.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-273"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-136.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-60"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-129"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-258"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="-379.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="-519"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="-472.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="-294"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-48"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="cockroach4">
+				<EasingDoubleKeyFrame KeyTime="0" Value="25.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="85.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="141"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="178.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="211.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="258"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="306"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="372"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="429"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="484.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="414"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="339"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="216"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="121.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="46.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-31.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-51"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-28.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="7.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="40.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="72"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="160.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="234"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="285"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="346.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="426"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="490.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="375"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="243"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="99"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-115.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-289.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-462"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-559.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-669"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-751.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="-841.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="-774"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="-673.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="-606"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-433.5"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="cockroach4">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-1.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="48"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="91.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="117"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="72"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="33"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-4.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-51"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-87"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-132"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-172.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-204"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-240"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-286.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-325.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-367.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-385.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-420"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-469.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-513"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-547.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-504"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-444"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-403.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-346.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="-298.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-261"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="-256.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="-223.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-180"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-141"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-126"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-106.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-85.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-63"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-46.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="-24"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="43.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="97.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="36"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-85.5"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="cockroach5">
+				<EasingDoubleKeyFrame KeyTime="0" Value="6"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="70.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="130.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="190.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="195"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="93"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="21"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-58.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-6"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="58.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="133.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="199.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="129"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="10.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-84"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-165"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-276"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-213"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-168"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-127.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-102"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-64.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-28.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-9"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-10.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="-127.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-241.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="-316.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="-444"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-633"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-760.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-895.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-1054.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-1108.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-1117.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-1014"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="-850.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="-699"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="-553.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="-417"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-150"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="cockroach5">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-6"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-60"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-103.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-159"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-211.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-259.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-283.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-307.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-336"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-361.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-400.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-433.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-471"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-508.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-510"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-504"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-511.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-418.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-343.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-231"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-150"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-51"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="36"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="124.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="180"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="133.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="100.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="66"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="30"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-46.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-114"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-195"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-300"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-349.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-504"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-529.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="-520.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="-520.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="-519"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="-529.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-531"/>
+			</DoubleAnimationUsingKeyFrames>
+			<PointAnimation Duration="0" To="0.461,0.459" Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Storyboard.TargetName="cockroach" d:IsOptimized="True"/>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="cockroach">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-6.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-57.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-114.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-171.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-222.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-277.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-360.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-432.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-495.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-570.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-624.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-702.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-766.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-825.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-891.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-985.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-1050.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-1087.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-1144.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-1191.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-1234.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-1224.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-1222.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-1173.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-1167.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="-1089.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-930.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.1" Value="-820.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="-705.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="-577.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-487.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-381.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-154.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="34.495"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="62.995"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="70.495"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="58.495"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="-106.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="-226.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="-381.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="-493.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-693.005"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="cockroach">
+				<EasingDoubleKeyFrame KeyTime="0" Value="24.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="76.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="132.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="187.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="241.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="297.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="360.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="429.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="480.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="522.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="486.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="436.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="382.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="345.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="279.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="211.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="150.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="96.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="147.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="199.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="276.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="390.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="487.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="585.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="648.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="609.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="499.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.1" Value="409.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="334.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="259.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="204.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="138.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="1.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-59.995"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="88.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="201.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="295.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="622.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="576.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="526.505"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="477.005"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="429.005"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="image">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.218"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="0.218"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="0.269"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.3" Value="0.298"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="0.298"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="0.258"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="image">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0.166"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="0.166"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="0.245"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.3" Value="0.267"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="0.267"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="0.246"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="image">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-449.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-492.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-545.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-606.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-671.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-701.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-626.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-561.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-456.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-383.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-303.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-266.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-173.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-129.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-71.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-41.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-3.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-35.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-110.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-149.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-191.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-239.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-315.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-417.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.3" Value="-427.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-427.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.6" Value="-244.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="150"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="277.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="445.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="574.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="466.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="211.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="10.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-177"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-283.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-459"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-409.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="-400.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="-403.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="-370.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="-243"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-24"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="image">
+				<EasingDoubleKeyFrame KeyTime="0" Value="-279"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-241.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-199.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-133.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-79.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-52.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="-4.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="31.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="81"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="130.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="169.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="120"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="19.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-94.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-180"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.3" Value="-273"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-328.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-357"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-408"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-432"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-460.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-520.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-508.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-504.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.3" Value="-505.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-505.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.6" Value="-283.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="-94.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-55.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="-13.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="37.5"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="93.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="78.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-23.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-167.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-221.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-341.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-122.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="6.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="126.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="152.25"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="75.75"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:10" Value="-189.75"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="cockroach4">
+				<EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="73.718"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="73.718"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-12.669"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-12.669"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-114.485"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-114.485"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-22.464"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-22.464"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="63.519"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="63.519"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="202.104"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="202.104"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="78.228"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="78.228"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="-12.633"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="cockroach5">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-121.241"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-121.241"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="13.986"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="13.986"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="-119.658"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-119.658"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3" Value="-142.625"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-142.625"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-249.723"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-249.723"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="-117.943"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-117.943"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-59.312"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="29.482"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="45.468"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="image">
+				<EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="-117.299"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-117.299"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="-206.841"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-206.841"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-295.228"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-295.228"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5" Value="-348.751"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.2" Value="-326.462"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.3" Value="-326.462"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-485.233"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="-485.233"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-356.371"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-292.009"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-292.009"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-408.897"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="-408.897"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="-538.238"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="cockroach3">
+				<EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.7" Value="-102.66"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-102.66"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-200.762"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-200.762"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-91.631"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-91.631"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="6.964"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="6.964"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="76.735"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="76.735"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="168.647"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="168.647"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="288.962"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.2" Value="288.962"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="178.784"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="cockroach">
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="-360.068"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-286.758"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-286.758"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-380.058"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-380.058"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-418.171"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.4" Value="-418.171"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.8" Value="-533.062"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.4" Value="-533.062"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-494.215"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-418.713"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-418.713"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.9" Value="-315.262"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="cockroach2">
+				<EasingDoubleKeyFrame KeyTime="0:0:1.9" Value="61.303"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="-54.324"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.6" Value="-54.324"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:3.9" Value="-149.922"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.6" Value="-149.922"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.8" Value="-243.134"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.2" Value="-243.134"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="-321.98"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-321.98"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.9" Value="-320.741"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-320.741"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-154.451"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="cockroach2">
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="0.83"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="0.83"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="0.923"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="cockroach2">
+				<EasingDoubleKeyFrame KeyTime="0:0:2.1" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.3" Value="0.813"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="0.813"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="0.877"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="cockroach1">
+				<EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="38.577"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:2.8" Value="-47.997"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.2" Value="-47.997"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:4.4" Value="-147.115"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="-147.115"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.1" Value="-329.101"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="-329.101"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="-247.338"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:7.8" Value="-247.338"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.1" Value="-132.943"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="-228.129"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="-47.578"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.5" Value="-47.578"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:9.8" Value="-182.925"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleX)" Storyboard.TargetName="cockroach1">
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.1" Value="1.335"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="1.335"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="1.087"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="1.087"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="0.958"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.ScaleY)" Storyboard.TargetName="cockroach1">
+				<EasingDoubleKeyFrame KeyTime="0:0:5.9" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.1" Value="1.275"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.4" Value="1.275"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:6.6" Value="1.11"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.4" Value="1.11"/>
+				<EasingDoubleKeyFrame KeyTime="0:0:8.6" Value="1.263"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</Page.Resources>
+
+    <Grid x:Name="grid_startPG" Background="#FFAA3232" Width="1366" Opacity="500"   Height="768">
+        <Image x:Name="Img_Start" HorizontalAlignment="Left" VerticalAlignment="Top" Width="auto" Height="auto" Source="Assets/start.png"/>
+        <Image x:Name="Img_start" HorizontalAlignment="Left" Height="768" VerticalAlignment="Top" Width="1366" Source="Assets/start.jpg" Stretch="UniformToFill" Visibility="Collapsed"/>
+        <Button x:Name="Btn_Start" Content="Start " HorizontalAlignment="Left" Margin="454,251,0,0" VerticalAlignment="Top" Height="75" Width="326" FontSize="36" Click="Btn_Start_Click" />
+        <Button x:Name="Btn_Exit" Content="Exit" HorizontalAlignment="Left" Height="75" Margin="454,411,0,0" VerticalAlignment="Top" Width="326" FontSize="36" Click="Btn_Exit_Click" />
+        <ToggleSwitch x:Name="Toggle_Switch" Header="Game Sounds" HorizontalAlignment="Left" Margin="893,251,0,0" VerticalAlignment="Top" IsOn="True" Width="402" Height="124" />
+        <Popup>
+            <Grid Background="#FFE5E5E5"   Height="100" Width="100"/>
+        </Popup>
+        <TextBlock x:Name="TxtBox_Title" HorizontalAlignment="Left" Height="73" Margin="538,60,-81,0" TextWrapping="Wrap" Text="Kill the Cockroach" VerticalAlignment="Top" Width="909" FontSize="72" />
+        <Image x:Name="Dead" Margin="65,34,1144,610" Source="Assets/Dead.png" Stretch="Fill"/>
+        <Image x:Name="cockroach" Margin="1261.305,35.936,32.044,660.801" Source="Assets/cockroach.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        	<Image.RenderTransform>
+        		<CompositeTransform Rotation="-360.068"/>
+        	</Image.RenderTransform>
+        </Image>
+        <Image x:Name="cockroach1" Margin="-17.285,615.818,1289.104,82.833" Source="Assets/cockroach copy.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        	<Image.RenderTransform>
+        		<CompositeTransform Rotation="38.577"/>
+        	</Image.RenderTransform>
+        </Image>
+        <Image x:Name="cockroach2" Margin="32.504,313.43,1278.728,392.027" Source="Assets/cockroach copy.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto">
+        	<Image.RenderTransform>
+        		<CompositeTransform Rotation="61.303"/>
+        	</Image.RenderTransform>
+        </Image>
+        <Image x:Name="cockroach3" Margin="395,631,913,94" Source="Assets/cockroach copy.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        	<Image.RenderTransform>
+        		<CompositeTransform/>
+        	</Image.RenderTransform>
+        </Image>
+        <Image x:Name="cockroach4" Margin="815,631,478,94" Source="Assets/cockroach copy.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        	<Image.RenderTransform>
+        		<CompositeTransform/>
+        	</Image.RenderTransform>
+        </Image>
+        <Image x:Name="cockroach5" Margin="1068,535,207,164" Source="Assets/cockroach copy.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+        	<Image.RenderTransform>
+        		<CompositeTransform/>
+        	</Image.RenderTransform>
+        </Image>
+        <Image x:Name="image" Margin="424,167,357,162" Source="Assets/cockroach.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" Visibility="Collapsed">
+        	<Image.RenderTransform>
+        		<CompositeTransform/>
+        	</Image.RenderTransform>
+        </Image>
+    </Grid>
+</Page>
